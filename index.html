@@ -22,6 +22,7 @@
 	    position:absolute;
 	    top:0;
 	    left:0;
+            bottom:-150px;
 	    -webkit-animation-name: kotak-ke-lingkaran; 
 	    -webkit-animation-duration:  8s;
 	    -webkit-animation-delay: 0.5s;
@@ -65,12 +66,12 @@
         .ok {
 	    width: 400px;
 	    height: 400px;
-            
 	    background-color: white;
             opacity: 0.2;
 	    position:absolute;
 	    top:0;
 	    left:0;
+            bottom: -150px;
 	    -webkit-animation-name: kotak-ke-lingkaran; 
 	    -webkit-animation-duration:  9.9s;
 	    -webkit-animation-delay: 0.2s;
@@ -82,27 +83,27 @@
 	@-webkit-keyframes kotak-ke-lingkaran {
 	  0%  {
 		border-radius:0 0 0 0;
-		background:cyan;
+		background:white;
 		transform: translateY(0vh) rotate(0deg);
 	  }
 	  25%  {
 		border-radius:50% 0 0 0;
-		background:white;
+		background:gray;
 		transform: translateX(-25vh) rotate(45deg);
 	  }
 	  50%  {
 		border-radius:50% 50% 0 0;
-		background:indianred;
+		background:cyan;
 		transform: translateX(0vh) rotate(90deg);
 	  }
 	  75%  { 
 		border-radius:50% 50% 50% 0;
-		background:lightcoral;
+		background: light blue;
 		transform: translateX(25vh)rotate(135deg);
 	  }
 	  100% {  
 		border-radius:50%;
-		background:darksalmon;
+		background:blue;
 		transform: translateY(-100vh) rotate(180deg);
 	  }
 	}
