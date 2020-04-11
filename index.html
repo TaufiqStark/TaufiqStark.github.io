@@ -4,7 +4,7 @@
    <title>TaufiqStark</title>
 	<style>
 	body {
-	  background:azure;
+	  background: black;
 	  font-size:15px;
 	}
 	div {
@@ -22,18 +22,34 @@
 	    -webkit-animation-timing-function: linear;
 	    -webkit-animation-direction: alternate;
 	}
+
+        .oh {
+	    width: 100px;
+	    height: 100px;
+	    background-color: coral;
+            opacity: 0.3;
+	    position:absolute !important;
+	    top:calc(50% - 100px);
+	    left:calc(75% - 100px);
+	    -webkit-animation-name: kotak-ke-lingkaran; 
+	    -webkit-animation-duration:  5s;
+	    -webkit-animation-delay: 1s;
+	    -webkit-animation-iteration-count: infinite;
+	    -webkit-animation-timing-function: linear;
+	    -webkit-animation-direction: alternate;
+	}
  
  
 	@-webkit-keyframes kotak-ke-lingkaran {
 	  0%  {
 		border-radius:0 0 0 0;
 		background:coral;
-		transform: translateY(100) rotate(0deg);
+		transform: translateY(100vh) rotate(0deg);
 	  }
 	  25%  {
 		border-radius:50% 0 0 0;
 		background:darksalmon;
-		transform: translateY(50) rotate(45deg);
+		transform: translateY(50vh) rotate(45deg);
 	  }
 	  50%  {
 		border-radius:50% 50% 0 0;
@@ -56,7 +72,7 @@
 <body>
 <div>
 </div>
-<div class="tembus">
+<div class="oh">
 </div>
 </body>
 </html>
