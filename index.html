@@ -33,8 +33,12 @@
 	    left:100%;
             bottom:-150px;
             transition:all 1s ease;
-	    animation: kotak-ke-lingkaran 8s linier infinite;
-	    
+	    -webkit-animation-name: kotak-ke-lingkaran; 
+	    -webkit-animation-duration: 20s;
+	    -webkit-animation-delay: 0s;
+	    -webkit-animation-iteration-count: infinite;
+	    -webkit-animation-timing-function: linear;
+	    -webkit-animation-direction: alternate;
 	}
 
         .oh {
@@ -102,7 +106,7 @@
 	  50%  {
 		border-radius:50% 50% 0 0;
 		background:cyan;
-		transform: translateY(-50vh) rotate(90deg);
+		transform: translateY(-70vh) rotate(90deg);
                 opacity;0.5;
 	  }
 	  75%  { 
