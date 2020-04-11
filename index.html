@@ -8,9 +8,10 @@
 	  font-size:15px;
 	}
         h2 {
-          position: absolute !important;
-	  top:calc(100% - 100px);
-	  left:calc(100% - 100px);
+          position: absolute;
+	  top:100%;
+	  left:100%;
+          size: 10px;
           align: center;
           color: white;
         }
@@ -40,7 +41,7 @@
 	    top:calc(125% - 100px);
 	    left:calc(75% - 100px);
 	    -webkit-animation-name: kotak-ke-lingkaran; 
-	    -webkit-animation-duration:  5s;
+	    -webkit-animation-duration:  7s;
 	    -webkit-animation-delay: 3s;
 	    -webkit-animation-iteration-count: infinite;
 	    -webkit-animation-timing-function: linear;
@@ -69,7 +70,7 @@
 	    background-color: white;
             opacity: 0.2;
 	    position:absolute !important;
-	    top:calc(99% - 100px);
+	    top:calc(125% - 100px);
 	    left:calc(25% - 100px);
 	    -webkit-animation-name: kotak-ke-lingkaran; 
 	    -webkit-animation-duration:  10s;
@@ -83,27 +84,27 @@
 	  0%  {
 		border-radius:0 0 0 0;
 		background:cyan;
-		transform: translateY(0) rotate(0deg);
+		transform: translateY(-25vh) rotate(0deg);
 	  }
 	  25%  {
 		border-radius:50% 0 0 0;
 		background:white;
-		transform: translateY(-25vh) rotate(45deg);
+		transform: translateY(-50vh) rotate(45deg);
 	  }
 	  50%  {
 		border-radius:50% 50% 0 0;
 		background:indianred;
-		transform: translateY(-50vh) rotate(90deg);
+		transform: translateY(-75vh) rotate(90deg);
 	  }
 	  75%  { 
 		border-radius:50% 50% 50% 0;
 		background:lightcoral;
-		transform: translateY(-75vh)rotate(135deg);
+		transform: translateY(-10/vh)rotate(135deg);
 	  }
 	  100% {  
 		border-radius:50%;
 		background:darksalmon;
-		transform: translateY(-110vh) rotate(180deg);
+		transform: translateY(-125vh) rotate(180deg);
 	  }
 	}
 	</style>
