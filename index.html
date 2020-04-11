@@ -11,6 +11,7 @@
 	    width: 200px;
 	    height: 200px;
 	    background-color: coral;
+            opacity: 0.3;
 	    position:absolute !important;
 	    top:calc(50% - 100px);
 	    left:calc(50% - 100px);
@@ -27,22 +28,22 @@
 	  0%  {
 		border-radius:0 0 0 0;
 		background:coral;
-		transform: translateY(0) rotate(0deg);
+		transform: translateY(100) rotate(0deg);
 	  }
 	  25%  {
 		border-radius:50% 0 0 0;
 		background:darksalmon;
-		transform:rotate(45deg);
+		transform: translateY(50) rotate(45deg);
 	  }
 	  50%  {
 		border-radius:50% 50% 0 0;
 		background:indianred;
-		transform:rotate(90deg);
+		transform: translateY(0) rotate(90deg);
 	  }
 	  75%  { 
 		border-radius:50% 50% 50% 0;
 		background:lightcoral;
-		transform:rotate(135deg);
+		transform: translateY(-50vh)rotate(135deg);
 	  }
 	  100% {  
 		border-radius:50%;
