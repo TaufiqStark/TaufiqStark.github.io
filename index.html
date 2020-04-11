@@ -4,9 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>TaufiqStark</title>
-<script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
-</head>
-<body>
+<style>
 .kotak{
      position: absolute;
      top: 0;
@@ -37,9 +35,15 @@
   	   opacity: 0;
      }
 }
-<ul class="kotak">				<li></li>				<li></li>				<li></li>				<li></li>
-     <li></li>
-</ul>
+</style>
+</head>
+<body>
+<div class="container">
+     <ul class="kotak">				<li></li>				<li></li>				<li></li>				<li></li>
+          <li></li>
+     </ul>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
 <script>
 document.body.innerHTML = baffle('.note')
 document.getElementById("kotak").innerHTML
