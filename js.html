@@ -496,19 +496,7 @@
 				gaming=false;
 				manual();
 			}
-			function bro(){
-				namaku = $(".pengembang").text();
-			    var hex, i;
-
-			    var result = "";
-			    for (i=0; i<namaku.length; i++) {
-			        hex = namaku.charCodeAt(i).toString(16);
-			        result += ("000"+hex).slice(-4);
-			    }
-				if (result!="426c75696c64"){
-					pass;
-				}
-			}
+			
 			function specialEffects(){
 				if(localStorage.getItem("manualColor")=="#4c1130"){
 					setTimeout(function() { createNote("Mangat Din ngepush course javascriptnya :v"); }, 5000);
