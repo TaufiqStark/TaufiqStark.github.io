@@ -22,7 +22,7 @@
 	  left:50%;
           color: white;
           -webkit-animation-name: teks; 
-	  -webkit-animation-duration: 15s;
+	  -webkit-animation-duration: 5s;
 	  -webkit-animation-delay: 2s;
 	  -webkit-animation-iteration-count: infinite;
 	  -webkit-animation-timing-function: linear;
@@ -131,10 +131,12 @@
 	}
         @-webkit-keyframes teks{
         0%{
-           transform: translateY(-10vh) translateZ(-10vh) rotate(180deg);
+           transform: translateY(-10vh) translateZ(-10vh);
+           transform: rotate(180deg);
         }
         100%{
-           transform: translateY(0) translateZ(0) rotate(360deg);
+           transform: translateY(0) translateZ(0);
+           transform: rotate(360deg);
         }
 	</style>
 </head>
