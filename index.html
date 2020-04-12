@@ -21,6 +21,7 @@
 	  top:50%;
 	  left:50%;
           color: white;
+          animation: teks 5s linier infinite;
         }
 
 	div {
@@ -123,6 +124,13 @@
 	        opacity:0;
           }
 	}
+        @-webkit-keyframes teks{
+        0%{
+           transform: translateY(-10vh) translateZ(-10vh) rotate(360deg);
+        }
+        100%{
+           transform: translateY(0) translateZ(0) rotate(360deg);
+        }
 	</style>
 </head>
 <body>
