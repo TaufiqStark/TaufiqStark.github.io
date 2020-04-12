@@ -97,6 +97,22 @@
 	    -webkit-animation-direction: alternate;
 	}
  
+        @media only screen and (min-width: 35em) {
+ 
+	   body {
+	       font-size: 1.5em;
+	   }
+			
+	   section, footer {
+	       width: 80%;
+	   }
+			
+	   h1 {
+	       font-size: 3em;
+	       color: #53bd84;
+	   }
+			
+	}
 	@-webkit-keyframes kotak-ke-lingkaran {
 	  0%  {
 		border-radius:0 0 0 0;
@@ -132,7 +148,7 @@
         @-webkit-keyframes teks{
         0%{
            transform: translateY(-10vh) translateZ(-10vh);
-           transform: rotate(180deg);
+           transform: rotate(0deg);
         }
         100%{
            transform: translateY(0) translateZ(0);
