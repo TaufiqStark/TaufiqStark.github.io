@@ -84,7 +84,7 @@ function val() {
 	var pass = document.getElementById('password').value;
 	if (user == "user" && pass == "000"){
                 alert("Oksip bro.");
-		open('login.html',_self);
+		self.location='login.html';
 		return true;
 	}else{
 		alert("Username/Sandi Anda Salah");
