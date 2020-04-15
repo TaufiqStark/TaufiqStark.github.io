@@ -83,7 +83,7 @@ function val() {
 	var user = document.getElementById('username').value;
 	var pass = document.getElementById('password').value;
 	if (user == "user" && pass == "000"){
-		window.location="login.html";
+		open("login.html",_self);
 		return true;
 	}else{
 		alert("Username/Sandi Anda Salah");
@@ -96,7 +96,7 @@ function val() {
 
 <div class="kotak" id="kotak">
 	<p>login</p>
-	<form action="" method="POST" onSubmit="val()"><label>username
+	<form action="login.html" method="POST" onSubmit="val()"><label>username
 	<input id="username" type="username" required></input>
 	<div class="in"></div></label>
 	<div class="hi"></div>
