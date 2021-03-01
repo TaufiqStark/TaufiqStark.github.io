@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/TaufiqStark/TaufiqStark.github.io/to-do-list"><img title="Stars" src="https://img.shields.io/github/stars/TaufiqStark/TaufiqStark.github.io/to-do-list?color=red&style=flat-square" /></a>
-  <a href="https://github.com/TaufiqStark/TaufiqStark.github.io/to-do-list/network/members"><img title="Forks" src="https://img.shields.io/github/forks/TaufiqStark/TaufiqStark.github.io/to-do-list?color=red&style=flat-square" /></a>
-  <a href="https://github.com/TaufiqStark/TaufiqStark.github.io/to-do-list"><img title="Watching" src="https://img.shields.io/github/watchers/TaufiqStark/TaufiqStark.github.io/to-do-list?label=watchers&color=blue&style=flat-square" /></a> <br>
-  <img src="https://img.shields.io/github/repo-size/TaufiqStark/TaufiqStark.github.io/to-do-list" />
-  <a href="https://www.codefactor.io/repository/github/TaufiqStark/TaufiqStark.github.io/to-do-list"><img src="https://www.codefactor.io/repository/github/TaufiqStark/TaufiqStark.github.io/to-do-list/badge" /></a>
+  <a href="https://github.com/TaufiqStark/TaufiqStark.github.io/tree/master/to-do-list"><img title="Stars" src="https://img.shields.io/github/stars/TaufiqStark/TaufiqStark.github.io/tree/master/to-do-list?color=red&style=flat-square" /></a>
+  <a href="https://github.com/TaufiqStark/TaufiqStark.github.io/tree/master/to-do-list/network/members"><img title="Forks" src="https://img.shields.io/github/forks/TaufiqStark/TaufiqStark.github.io/tree/master/to-do-list?color=red&style=flat-square" /></a>
+  <a href="https://github.com/TaufiqStark/TaufiqStark.github.io/tree/master/to-do-list"><img title="Watching" src="https://img.shields.io/github/watchers/TaufiqStark/TaufiqStark.github.io/to-do-list?label=watchers&color=blue&style=flat-square" /></a> <br>
+  <img src="https://img.shields.io/github/repo-size/TaufiqStark/TaufiqStark.github.io/tree/master/to-do-list" />
+  <a href="https://www.codefactor.io/repository/github/TaufiqStark/TaufiqStark.github.io/tree/master/to-do-list"><img src="https://www.codefactor.io/repository/github/TaufiqStark/TaufiqStark.github.io/tree/master/to-do-list/badge" /></a>
 </p>
 
 <h4 align="center">
