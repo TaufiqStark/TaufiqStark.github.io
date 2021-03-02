@@ -15,6 +15,7 @@
 </p>
 
 <h4 align="center">
-  <a href="https://chat.whatsapp.com/GLhL490gv5p2DcXT1CmdEd">Join Grub WA</a>
+  <a href="https://chat.whatsapp.com/GLhL490gv5p2DcXT1CmdEd"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+</a>
 </h4>
 </div>
